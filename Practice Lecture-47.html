@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-        const per = (parseInt(prompt("Enter yor Marks: ")))
+        const per = (parseInt(prompt("Enter yor M: ")))
 
         if (per>=50 && per<60){
             document.write("Your grade is D")
@@ -15,7 +15,19 @@
         else if(per>=61 && per<70){
             document.write("Your grade is B")
         }
-       
+        else if(per>=70 && per<80){
+            document.write("Your grade is B+")
+        }
+        else if(per>=80 && per<90){
+            document.write("Your grade is A")
+        }
+        else if(per>=90 && per<100){
+            document.write("Your grade is A+ With first class")
+        }
+        else{
+            document.write("Try Next Time")
+        }
+
     </script>
 </body>
 </html>
